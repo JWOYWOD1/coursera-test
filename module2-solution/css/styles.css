@@ -4,7 +4,13 @@
 }
 
 body{
-	color:red;
+	background-color:green;
+}
+
+header {
+	text-align: center;
+	font-size: 100px;
+	background-color: blue;
 }
 
 .container{
