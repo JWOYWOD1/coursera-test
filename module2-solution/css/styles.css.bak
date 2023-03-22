@@ -1,10 +1,15 @@
-.style{
-	font-family:Arial, Helvetica, sans-serif;
+
+
+body{
+	background-color:green;
+	font-family:Brush Script MT, Lucida Handwriting, Copperplate;
 	color:red;
 }
 
-body{
-	color:red;
+header {
+	text-align: center;
+	font-size: 100px;
+	background-color: blue;
 }
 
 .container{

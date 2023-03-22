@@ -3,12 +3,12 @@
 <head>
 	<meta charset = "utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bupa de Beppo Ristorante</title>
+	<title>Coursera - Module 2 - Assignment Solution</title>
 	
-	<link rel = "stylesheet" href = "styles.css">
+	<link rel = "stylesheet" href = "css/styles.css">
 </head>
 <body>
-	<header>Risyorante Menu</header>
+	<header>Ristorante Menu</header>
 <!--	<div class = "container">
 		<div class = "row">
 			<div class = "col-md-4"></div>
