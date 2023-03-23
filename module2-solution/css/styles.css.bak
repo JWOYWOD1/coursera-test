@@ -1,18 +1,105 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-
-body{
-	background-color:green;
-	font-family:Brush Script MT, Lucida Handwriting, Copperplate;
-	color:red;
+body {
+	background-color: green;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: red;
+	background-image:url("Spaghetti-and-Meatballs.jpg");
+	background-size: cover;
 }
 
 header {
+	border: 1px solid black;
 	text-align: center;
-	font-size: 100px;
+	font-size: 400%;
 	background-color: blue;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.container{
-	color: white;
+h2 {
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+	width:37%;
+	position:relative;
+	left:63%;<!--proportion set in relation to what width was set to-->
+	top:0;
+}
+
+p {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.container-fluid{
+	color: black;
 	font-family: Times New Roman, Georgia, Garamond;
+	position: relative;
+	top: 60px;
+	margin:5px;
+}
+
+.row {
+	width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .big-screen {
+    float: left;
+	clear:right;
+    border: 1px solid black;
+	background-color: yellow;
+	position:relative;
+	width: 30%;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .med-halfscreen, .med-fullscreen {
+    float: left;
+    border: 1px solid black;
+	background-color: orange;
+	position:relative;
+	margin-bottom: 1.25%;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  
+  .med-halfscreen {
+    width: 47.5%;
+	margin-right: 1.25%;
+	margin-left: 1.25%;
+  }
+ 
+  .med-fullscreen {
+    width: 97.5%;
+	margin-right: 1.25%;
+	margin-left: 1.25%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .small-screen {
+    float: left;
+    border: 1px solid black;
+	background-color: #f340d0;
+	position:relative;
+	margin-bottom:5px;
+	width: 95%;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+  }
 }
