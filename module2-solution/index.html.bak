@@ -14,15 +14,15 @@
 		
 		<div class = "row">
 		
-			<div class = "big-screen med-halfscreen col-sm-12">
+			<div class = "big-screen med-halfscreen small-screen">
 				<h2>Spaghetti & Meatballs</h2>
 				<p>Lorem ipsum dolor sit amet, in nam viris regione gloriatur, ea mei vocent omittam. Qui sale praesent laboramus ne, magna honestatis cum ne. Libris dolorum qui in. Nulla ceteros nominavi ex mei, labores graecis assentior vel no. Ius ex erat iriure maiestatis, ludus dolorem et sea.</p>
 			</div>
-			<div class = "big-screen med-halfscreen col-sm-12">
+			<div class = "big-screen med-halfscreen small-screen">
 				<h2>Chicken Parmesan</h2>
 				<p>Et persius deterruisset consectetuer pri. His prima malorum cu. Eum virtute corrumpit assueverit at, est id ponderum petentium. At laudem philosophia nec, sea saepe soleat ea.</p>
 			</div>
-			<div class = "big-screen med-fullscreen col-sm-12">
+			<div class = "big-screen med-fullscreen small-screen">
 				<h2>Stromboli</h2>
 				<p>Est at vidit oporteat, vidisse hendrerit sed ea. Duo illum facilis eu. Doming dolorem ad vel, usu cu nobis pertinax constituam. Ex vis instructior comprehensam, an atqui pericula vim.</p>
 			</div>			
