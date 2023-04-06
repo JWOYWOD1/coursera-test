@@ -54,6 +54,7 @@ WARNING!!! WARNING!!!
   // var firstLetter =
 
 		var firstLetter = names[name].charAt(0).toLowerCase();
+		console.log(firstLetter);
 
   // STEP 12:
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
